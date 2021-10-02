@@ -1,0 +1,291 @@
+
+
+.offcanvas-body{
+    background-image: url(../assets/blob-scene-haikei.svg);
+    background-size: cover;
+}
+
+#navcolor{
+    background-color: #297EA6;
+}
+
+#CardColor{
+    background-color: #746fc4;
+}
+
+p{
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+}
+th{
+    color: #d13e8c;
+}
+
+td{
+    color: #2A013A;
+}
+
+li{
+    color: white;
+}
+
+h1{
+    color: #E29CFF;
+    font-size: 34px;
+    font-family:monospace;
+}
+
+h2{
+    color: #E29CFF;
+    font-size: 30px;
+    font-family:monospace;
+}
+
+h3{
+    color: #FF5EB4;
+    font-size: 27px;
+    font-family:monospace;
+}
+
+h4{
+    color: #FF5EB4;
+    font-family:monospace;
+    font-size: 26px;
+}
+h5{
+    color: #2A013A;
+    font-size: 25px;
+    font-family:monospace;
+}
+
+hr{
+    color: #FF5EB4;
+}
+
+body{
+    background-image: url(../assets/blob-scene-haikei.svg);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+
+ 
+}
+
+
+.titulo_descarga{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #E29CFF ;
+}
+
+small{
+    color: white;
+}
+
+label{
+    color: white;
+}
+span{
+    color: #E29CFF;
+    font-size: 22px;
+    font-family: monospace;
+}
+.navbar{
+    background-color: #746fc4;
+     border-radius: 4px;
+}
+#navbarDropdown:hover{
+    color: #E29CFF;
+}
+#naving:hover{
+    color: #E29CFF;
+}
+
+.equipo_{
+    background-size: cover;
+}
+
+.demostraciones_{
+    background-size: cover;
+}
+
+.ajuste{
+    border-radius: 4px;
+    border: 4px;
+}
+.ajustes{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.td:hover{
+    background-color: #E29CFF;
+    color: white;
+}
+
+.th:hover{
+    background-color: #E29CFF;
+    color: white;
+}
+
+.card{
+    margin: 8px;
+    background-color: #746fc4;
+    opacity: 70%;
+    transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    
+    
+
+}
+.card:hover{
+    opacity: 100%;
+    transform: scale(1.050);
+    -webkit-transform: scale(1.050);
+    -moz-transform: scale(1.050);
+    -o-transform: scale(1.050);
+}
+
+.carouselh5{
+    color: white;
+    opacity: 70%;
+    transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+}
+
+.carouselP{
+    color: white;
+    opacity: 70%;
+    transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+}
+.carousel{
+    opacity: 60%;
+    transition: all 0.5s linear 0s;
+    -webkit-transition: all 0.5s linear 0s;
+    -moz-transition: all 0.5s linear 0s;
+    -o-transition: all 20.5s linear 0s;
+}
+.carousel:hover{
+    opacity: 80%;
+    color: purple;
+    transform: scale(1.05);
+}
+.carouselh5:hover{
+    opacity: 100%;
+    color: purple;
+}
+.carouselP:hover{
+    opacity: 100%;
+    color: wheat;
+}
+
+.accordion-button{
+    background-color:#746fc4;
+    color: white;
+    font-size: 20px;
+    transition: all 0.35s linear 0s;
+    -webkit-transition: all 0.35s linear 0s;
+    -moz-transition: all 0.35s linear 0s;
+    -o-transition: all 0.35s linear 0s;
+}
+.accordion-button:hover{
+    background-color: rgb(236, 230, 230);
+    color: rgb(44, 44, 190);
+}
+
+.accordion-item{
+    background-color: #4a7fb1;
+    color: white;
+}
+
+.table{
+    background-color: #746fc4;
+}
+
+@media screen and (max-width: 576px) {
+    body{
+        width: unset;
+    }
+    .logo{
+        width: 390px;
+        height: 100px;
+    }
+    .Info_sis{
+        padding: 10px;
+    }
+    .demostraciones_{
+        padding: 10px;
+    }
+    .equipo_{
+        padding: 10px;
+    }
+    .ajustes{
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+.btn{
+    font-size: 21px;
+}
+
+@media screen and (max-width: 390px) {
+  body{
+      width: unset;
+  }
+  .logo{
+      width: 353px;
+  }
+  .ajustes{
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+    
+    .logo{
+        width: 700px;
+    }
+    .ajustes{
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-group{
+      display: flex;
+      flex-direction: column;
+  }
+ 
+    
+  }
+   @media screen and (max-width: 1400px) {
+     .nav-link{
+         display: flex;
+        flex-direction: column;
+     }
+
+
+     #navbarDropdown{
+         display: flex;
+        flex-direction: row;
+     }
+      
+
+    .logo{
+        width: 1120px;
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+
+    .logo{
+        width: 1300px;
+    }
+  }
